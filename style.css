@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+.toast{
+    background-color: pink;
+    border-radius: 5px;
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+#container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
